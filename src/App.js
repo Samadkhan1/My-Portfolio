@@ -8,6 +8,7 @@ import wooxTravels from "./images/woox-travels.jpg";
 import DRFirm from "./images/DR-firm.jpg"
 import ecommerce from './images/e-commerce-site.jpg'
 import swissGold from "./images/swiss-gold.jpg"
+import CV from "./myCV.pdf"
 
 const App = () => {
   const [scroll, setscroll] = useState(0);
@@ -57,7 +58,8 @@ const App = () => {
             development, where creativity meets functionality.
           </p>
           <a
-            href="/"
+          download
+            href={CV}
             className="bg-red-500 text-gray-200 py-3 px-5 mt-10 rounded-lg hover:bg-red-400"
           >
             Download CV
