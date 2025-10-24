@@ -7,6 +7,7 @@ import tailwindCssLogo from "./images/Tailwind CSS.png";
 import wooxTravels from "./images/woox-travels.jpg";
 import DRFirm from "./images/DR-firm.jpg"
 import ecommerce from './images/e-commerce-site.jpg'
+import swissGold from "./images/swiss-gold.jpg"
 
 const App = () => {
   const [scroll, setscroll] = useState(0);
@@ -176,6 +177,21 @@ const App = () => {
               <h1 className="text-2xl mt-5 font-semibold">XT Store (Next JS)</h1>
               <a
                 href="https://e-commerce-mu-five-75.vercel.app/"
+                className="inline-block text-gray-200 hover:bg-red-400 bg-red-500 px-5 py-2 rounded-lg font-semibold mt-3"
+              >
+                View Live
+              </a>
+            </div>
+          </div>
+          <div className="max-w-[400px] min-w-[300px]  my-2 mx-2 bg-gray-200 dark:bg-gray-700  pb-5 ">
+            <div
+              style={{ backgroundImage: `url(${swissGold})` }}
+              className="h-52 w-full bg-center bg-cover bg-no-repeat"
+            ></div>
+            <div className="px-5 ">
+              <h1 className="text-2xl mt-5 font-semibold">Swiss Gold</h1>
+              <a
+                href="https://swiss-gold-seven.vercel.app/"
                 className="inline-block text-gray-200 hover:bg-red-400 bg-red-500 px-5 py-2 rounded-lg font-semibold mt-3"
               >
                 View Live
