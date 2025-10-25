@@ -255,26 +255,32 @@ const App = () => {
           </div>
           <div className="w-full md:w-[50%] p-5 md:p-10">
             <h1 className="text-2xl md:text-4xl x-font">Message</h1>
-            <form>
+            <form action="https://formspree.io/f/xvgvplqr" method="POST">
               <div className="mt-5 flex flex-col md:flex-row md:row justify-between">
                 <input
                   type="text"
+                  name="First_Name"
                   placeholder="First Name"
                   className="bg-transparent  py-3 px-2 border-b-[1px] border-gray-400 w-full md:w-[48%]"
                 />
                 <input
                   type="text"
+                  required
+                  name="Last_Name"
                   placeholder="Last Name"
                   className="bg-transparent  py-3 px-2 border-b-[1px] border-gray-400 w-full mt-5 md:mt-0 md:w-[48%]"
                 />
               </div>
               <input
                 type="email"
+                name="Email"
+                required
                 placeholder="E-Mail"
                 className="mt-5 bg-transparent  py-3 px-2 border-b-[1px] border-gray-400 w-full"
               />
               <textarea
                 rows={3}
+                name="Message"
                 placeholder="Message"
                 className="mt-5 bg-transparent  py-2 px-2 border-b-[1px] border-gray-400 w-full"
               />
@@ -291,6 +297,8 @@ const App = () => {
       <footer className="dark:bg-gray-800 dark:text-gray-200 bg-gray-100 p-10 text-center">
         © 2025 Abdul Samad Khan. All rights reserved.
       </footer>
+
+      
     </div>
   );
 };
