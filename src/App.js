@@ -8,7 +8,7 @@ import wooxTravels from "./images/woox-travels.jpg";
 import DRFirm from "./images/DR-firm.jpg"
 import ecommerce from './images/e-commerce-site.jpg'
 import swissGold from "./images/swiss-gold.jpg"
-import CV from "./myCV.pdf"
+import CV from "./AbdulSamad.pdf"
 
 const App = () => {
   const [scroll, setscroll] = useState(0);
